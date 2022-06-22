@@ -12,5 +12,6 @@ steps:
     commands:
       - mvn verify --no-transfer-progress
   - name: hello
+    image: golang
     commands:
       - echo 'hello'
